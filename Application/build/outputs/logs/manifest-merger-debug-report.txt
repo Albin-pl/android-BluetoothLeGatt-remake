@@ -1,0 +1,122 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:20:1-51:12
+	package
+		ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:21:5-50
+	android:versionName
+		ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:23:5-30
+		INJECTED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:22:5-28
+		INJECTED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:20:11-69
+uses-feature#android.hardware.bluetooth_le
+ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:31:5-89
+	android:required
+		ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:31:64-87
+	android:name
+		ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:31:19-63
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:33:5-67
+	android:name
+		ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:33:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:34:5-73
+	android:name
+		ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:34:22-71
+application
+ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:36:5-49:19
+MERGED from [com.android.support:support-v13:25.0.1] C:\Users\Albin\.android\build-cache\e79fda58218676ce0f49ea99a9cd91797dc75436\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:25.0.1] C:\Users\Albin\.android\build-cache\8717f4b32bdc7f9460e2c11706d67832e268ac97\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Albin\.android\build-cache\b6e7dda062b5b1eacb2bc303cbc20fd5bf5d174c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Albin\.android\build-cache\5d2f190438744f16820438c8afffe14922b6c6ae\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Albin\.android\build-cache\8cc7c73a52e7a1d9048b338102bcb820107f86a0\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Albin\.android\build-cache\4ebea46e2b3450d34d72c176ff5bf70bc82cf252\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Albin\.android\build-cache\1756d3c5c06bb49954105d6ab0d2c4def5d42eb8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Albin\.android\build-cache\36571d29e6d2039459127adeafe15467ff97da21\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Albin\.android\build-cache\55363d3b8a1c2289c7593a12121b564ecd9a024d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Albin\.android\build-cache\9df4d10b7e91b9b1ac9f02a5755ee4a02ccb878e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Albin\.android\build-cache\421a2fa0ef8cd2a5d9f219962464e7f900758388\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Albin\.android\build-cache\d5083f984b89f2220ef7b20590aacb5d5ad95374\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Albin\.android\build-cache\52ea6319636dfef07a52877687b60f4744e0bf04\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:36:18-50
+	android:icon
+		ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:37:9-45
+	android:theme
+		ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:38:9-56
+activity#com.example.android.bluetoothlegatt.DeviceScanActivity
+ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:39:9-45:20
+	android:label
+		ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:40:13-45
+	android:name
+		ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:39:19-53
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:41:13-44:29
+action#android.intent.action.MAIN
+ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:42:17-68
+	android:name
+		ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:42:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:43:17-76
+	android:name
+		ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:43:27-74
+activity#com.example.android.bluetoothlegatt.DeviceControlActivity
+ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:46:9-58
+	android:name
+		ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:46:19-56
+service#com.example.android.bluetoothlegatt.BluetoothLeService
+ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:47:9-77
+	android:enabled
+		ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:47:53-75
+	android:name
+		ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:47:18-52
+activity#com.example.android.bluetoothlegatt.ProgressBarActivity
+ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:48:9-66
+	android:name
+		ADDED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:48:19-54
+uses-sdk
+INJECTED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:support-v13:25.0.1] C:\Users\Albin\.android\build-cache\e79fda58218676ce0f49ea99a9cd91797dc75436\output\AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:cardview-v7:25.0.1] C:\Users\Albin\.android\build-cache\8717f4b32bdc7f9460e2c11706d67832e268ac97\output\AndroidManifest.xml:20:5-43
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\Albin\.android\build-cache\e95a4a252764e1c0d57a02100febb47ea6dd3fd7\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:design:25.3.1] C:\Users\Albin\.android\build-cache\b6e7dda062b5b1eacb2bc303cbc20fd5bf5d174c\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Albin\.android\build-cache\5d2f190438744f16820438c8afffe14922b6c6ae\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Albin\.android\build-cache\8cc7c73a52e7a1d9048b338102bcb820107f86a0\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Albin\.android\build-cache\bce90ced695953d9520c9a6623de6623f0891f5f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Albin\.android\build-cache\4ebea46e2b3450d34d72c176ff5bf70bc82cf252\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Albin\.android\build-cache\1756d3c5c06bb49954105d6ab0d2c4def5d42eb8\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Albin\.android\build-cache\36571d29e6d2039459127adeafe15467ff97da21\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Albin\.android\build-cache\55363d3b8a1c2289c7593a12121b564ecd9a024d\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Albin\.android\build-cache\9df4d10b7e91b9b1ac9f02a5755ee4a02ccb878e\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Albin\.android\build-cache\421a2fa0ef8cd2a5d9f219962464e7f900758388\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Albin\.android\build-cache\d5083f984b89f2220ef7b20590aacb5d5ad95374\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Albin\.android\build-cache\52ea6319636dfef07a52877687b60f4744e0bf04\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v13:25.0.1] C:\Users\Albin\.android\build-cache\e79fda58218676ce0f49ea99a9cd91797dc75436\output\AndroidManifest.xml:23:9-52
+	android:targetSdkVersion
+		INJECTED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\___REPO\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Albin\.android\build-cache\b6e7dda062b5b1eacb2bc303cbc20fd5bf5d174c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Albin\.android\build-cache\5d2f190438744f16820438c8afffe14922b6c6ae\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Albin\.android\build-cache\8cc7c73a52e7a1d9048b338102bcb820107f86a0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Albin\.android\build-cache\bce90ced695953d9520c9a6623de6623f0891f5f\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Albin\.android\build-cache\4ebea46e2b3450d34d72c176ff5bf70bc82cf252\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Albin\.android\build-cache\1756d3c5c06bb49954105d6ab0d2c4def5d42eb8\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Albin\.android\build-cache\36571d29e6d2039459127adeafe15467ff97da21\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Albin\.android\build-cache\55363d3b8a1c2289c7593a12121b564ecd9a024d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Albin\.android\build-cache\9df4d10b7e91b9b1ac9f02a5755ee4a02ccb878e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Albin\.android\build-cache\421a2fa0ef8cd2a5d9f219962464e7f900758388\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Albin\.android\build-cache\d5083f984b89f2220ef7b20590aacb5d5ad95374\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Albin\.android\build-cache\52ea6319636dfef07a52877687b60f4744e0bf04\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Albin\.android\build-cache\b6e7dda062b5b1eacb2bc303cbc20fd5bf5d174c\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Albin\.android\build-cache\b6e7dda062b5b1eacb2bc303cbc20fd5bf5d174c\output\AndroidManifest.xml:26:9-47

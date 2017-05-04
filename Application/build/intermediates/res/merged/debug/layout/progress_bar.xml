@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:imeOptions="actionSend"
+            android:inputType="text"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/send_button"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/chat_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fastScrollEnabled="true"
+        android:visibility="gone" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:layout_gravity="top|center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.5"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.5"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:background="#eee"
+            android:progressDrawable="@drawable/progress_bar"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:max="5000"
+            android:progress="0"
+            android:layout_marginRight="5dp"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:background="#eee"
+            android:progressDrawable="@drawable/progress_bar"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:max="5000"
+            android:progress="0"
+            android:layout_marginLeft="5dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonClose"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.11"
+        android:text="@string/back_btn" />
+
+
+</LinearLayout>
+
